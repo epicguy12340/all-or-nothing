@@ -1,1 +1,2 @@
-console.log('All or Nothing loaded');
+
+console.log('All or Nothing: Interactive Sprint Game Homepage Loaded');
