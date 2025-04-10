@@ -1,83 +1,84 @@
 
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #111;
-  color: white;
-  line-height: 1.6;
+  padding: 0;
+  background-color: #0e0e0e;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
 }
-
 .hero {
   text-align: center;
   padding: 60px 20px;
-  background: linear-gradient(to right, #000, #222);
+  background: linear-gradient(to right, #000, #1a1a1a);
 }
-
 .logo {
   width: 200px;
-  max-width: 80%;
+  margin-bottom: 20px;
 }
-
 .tagline {
-  font-size: 1.5rem;
-  margin: 20px 0;
+  font-size: 2rem;
+  margin: 20px 0 10px;
 }
-
+.subtitle {
+  font-size: 1.1rem;
+  color: #ccc;
+}
 .cta {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 28px;
-  background: #f04e23;
+  background-color: #f04e23;
   color: white;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 10px;
 }
-
 .features {
   padding: 40px 20px;
 }
-
-.features h3 {
-  margin-top: 40px;
+.features section {
+  margin-bottom: 40px;
 }
-
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-
-.features li {
-  margin: 10px 0;
-  font-size: 1.1rem;
-}
-
-.media {
+.mode-list {
   padding: 40px 20px;
+}
+.mode {
+  background-color: #1a1a1a;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.signup-section {
   text-align: center;
+  padding: 40px 20px;
+  background: #111;
 }
-
-.media img {
-  width: 90%;
-  max-width: 400px;
-  margin: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+.signup-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.trailer-placeholder {
-  background: #333;
-  padding: 60px;
-  border-radius: 12px;
-  margin-top: 20px;
-  color: #aaa;
-  font-style: italic;
+.signup-section input {
+  padding: 12px;
+  margin: 10px 0;
+  width: 300px;
+  max-width: 90%;
+  border-radius: 6px;
+  border: none;
 }
-
+.signup-section button {
+  background-color: #f04e23;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #000;
   font-size: 0.9rem;
-  color: #888;
+  color: #aaa;
+  background-color: #000;
 }

@@ -1,2 +1,1 @@
-
-console.log('All or Nothing promo site loaded');
+console.log('All or Nothing site loaded successfully');
