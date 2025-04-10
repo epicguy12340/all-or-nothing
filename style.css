@@ -2,25 +2,82 @@
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #000000, #434343);
+  background-color: #111;
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  line-height: 1.6;
 }
 
 .hero {
   text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #000, #222);
+}
+
+.logo {
+  width: 200px;
+  max-width: 80%;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin: 20px 0;
 }
 
 .cta {
   display: inline-block;
   margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #f04e23;
+  padding: 12px 28px;
+  background: #f04e23;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
   font-weight: bold;
+  border-radius: 10px;
+}
+
+.features {
+  padding: 40px 20px;
+}
+
+.features h3 {
+  margin-top: 40px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.media {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.media img {
+  width: 90%;
+  max-width: 400px;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+.trailer-placeholder {
+  background: #333;
+  padding: 60px;
+  border-radius: 12px;
+  margin-top: 20px;
+  color: #aaa;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  font-size: 0.9rem;
+  color: #888;
 }
